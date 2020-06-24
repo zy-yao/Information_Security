@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_risking"
+            android:icon="@drawable/ic_menu_risking"
+            android:title="风险软件" />
+        <item
+            android:id="@+id/nav_dun"
+            android:icon="@drawable/ic_menu_dun"
+            android:title="短信保镖" />
+        <item
+            android:id="@+id/nav_protect"
+            android:icon="@drawable/ic_menu_protect"
+            android:title="恶意拦截" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_setting"
+            android:title="设置" />
+    </group>
+
+    <item android:title="更多"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="退出程序" />
+        </menu>
+    </item>
+
+</menu>
